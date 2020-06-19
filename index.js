@@ -21,7 +21,7 @@ const app = express();
 /**
  * Port Configuration
  */
-const PORT = config.get("PORT");
+const PORT = process.env.PORT || config.get("PORT");
 
 /**
  * Mongoose Configuration and connection
