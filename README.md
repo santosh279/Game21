@@ -70,7 +70,7 @@ $ DEBUG=game21* npm start env
 - Initiate a new_game endpoint, game gets created with the number of player count provided and a dealer
 - If the player want to Twist use the twist end-point and a card is provided to the cardsonhand.
 - If the player want to Stand and stop the game can use the stand end-point.
-- Dealer has a separate end-point and end-point is enabled only after all the players on the deck have completed playing the game.
+- Dealer has a separate end-point and end-point is enabled only after all the players on the deck have completed playing the game which is all the players are at stand.
 - Save end-point to save each of the Round.
 - Player history end-point to know history for a given player.
 
