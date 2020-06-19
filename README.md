@@ -26,6 +26,7 @@
 -  Ace management for the entire deck.
 -  Automatic player creation based on the count provided in the new game.
 
+
 # New Features to be included
 
   - Provide hard hand and soft hand for the players.
@@ -48,14 +49,14 @@ $ npm install
 For development environments...
 
 ```sh
-$  export NODE_ENV=development
+$ export NODE_ENV=development
 $ npm start dev
 ```
 
 For production environments...
 
 ```sh
-$  export NODE_ENV=production
+$ export NODE_ENV=production
 $ npm start prod
 ```
 
