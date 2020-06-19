@@ -1,1 +1,1 @@
-web: npm start 
+web: DEBUG=game21* npm start prod
