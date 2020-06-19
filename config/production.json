@@ -1,0 +1,10 @@
+{
+  "environment" : "production",
+  "PORT" : 8080,
+  "DB" : {
+    "MONGO_HOST" : "localhost",
+    "MONGO_PORT" : 27017,
+    "MONGO_DB_NAME" : "game21_prod"
+  },
+  "DECK_OF_CARDS" : 3
+}

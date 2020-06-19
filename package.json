@@ -1,0 +1,43 @@
+{
+  "name": "game21",
+  "version": "1.0.0",
+  "description": "Blackjack server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "prod": "NODE_ENV=production nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "apidoc": {
+    "name": "Game21",
+    "version": "0.1.0",
+    "description": "Game21 API List Manager",
+    "apidoc": {
+      "title": "Game21"
+    }
+  },
+  "author": "Santosh Kumar M",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "@hapi/joi": "^17.1.1",
+    "apidoc": "^0.23.0",
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "i": "^0.3.6",
+    "joi": "^14.3.1",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "npm": "^6.14.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

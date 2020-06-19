@@ -1,0 +1,13 @@
+{
+  "invalid_player_count": "Invalid Player Count",
+  "doesnt_support": "Our deck doesn't support more than 3 players",
+  "required_player_id": "Required Player ID",
+  "required_game_id": "Required Game ID",
+  "unsupported_format": "Unsupported, please try again",
+  "error_while_fetching_player": "Error with players collection. Please try again",
+  "no_game_found": "No Game Found",
+  "error_with_dealer": "Error with the dealer game fetch",
+  "error_with_game_class": "Error with the game collection",
+  "unauthorized": "UnAuthorized",
+  "In_correct_details" : "In correct details."
+}
