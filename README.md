@@ -48,17 +48,21 @@ $ npm install
 For development environments...
 
 ```sh
-$  export NODE_ENV=development
+$ export NODE_ENV=development
 $ npm start dev
 ```
 
 For production environments...
 
 ```sh
-$  export NODE_ENV=production
+$ export NODE_ENV=production
 $ npm start prod
 ```
-
+#### NOTE: To use debug plugin with the environment
+```sh
+$ export NODE_ENV=env
+$ DEBUG=game21* npm start env
+```
 ### Development
  Great! Game21 is also available on Heroku [GAME21](https://game21jack.herokuapp.com/)
 ### API LIST MANAGER
