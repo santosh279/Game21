@@ -7,7 +7,6 @@
 - In  our Application, ACE Management is automatically done depending upon the count the player persist.
 # Game
 - Number of players in the game is restricted upto 3 and a dealer involved.
-- Any player can go first to play but if the alternate player tries to play parallely it will not be allowed.
 - Players can either TWIST or STAND. If they twist that means there will be extra card added to their cards on hand. If they wish to stand then the game is concluded and should wait for the dealer turn to finish to find the result.
 - If the player count is above 21 at then it's a "Bust" and the game is concluded for the player or if the count is equal to 21 then it's a "Blackjack" for the player.
 - If player count is maximum of remaining players and nearest to 21 or equal to 21 then player is the winner for the game or round.
@@ -59,7 +58,11 @@ For production environments...
 $ export NODE_ENV=production
 $ npm start prod
 ```
-
+#### NOTE: To use debug plugin with the environment
+```sh
+$ export NODE_ENV=env //env is the specific environment
+$ DEBUG=game21* npm start env //env is the specific environment
+```
 ### Development
  Great! Game21 is also available on Heroku [GAME21](https://game21jack.herokuapp.com/)
 ### API LIST MANAGER
